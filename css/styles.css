@@ -2,30 +2,125 @@
 background-image: url(../images/bg1.jpg);
 background-size: cover;
 background-repeat: no-repeat;
-width: 100%;
 height: 100vh;
 }
-#b2{
-    margin-top: 200px;
+.sec1{
+    align-items: center;
     text-align: center;
-    text-transform: capitalize;
-    justify-items: center;
+    margin: 0 auto;
+    display: inline-block;
+    text-transform: uppercase;
 }
-#b1 {
-    
-    border-color: black;
-    background-color: none;
+#p1{
+    letter-spacing: 10px;
 }
+#p2{
+    color: black;
+    font-size: larger;
+    font-weight: 200;
+    font-size: 30px;
+    letter-spacing: 20px;
+}
+
+#button1{
+    background-color: transparent;
+    color:  #6c757d;
+    border-color:  #6c757d;
+    text-transform: uppercase; 
+    margin-right: 10px; 
+    padding-inline: 20px;  
+    border-radius: 0px;
+    border-width: 1px;
+}
+#button2{
+    background-color: transparent;
+    color:  #6c757d;
+    padding-inline: 20px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    border-width: 1px;
+}
+#b{
+  padding: 50px;
+  text-align: center;
+  display: inline;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+.p22{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
 .image{
-    width: 50px; height: 50px;
+   
+    width: 20px; height: 20px;
 }
-.image_h{
-    width: 200px;
-    height: 200px;
+
+#c{
+    background-color:rgba(238, 237, 237, 0.986);
+    padding: 60px;
+    text-align: justify;
+       
 }
+.p33{
+    margin-top: 60px;
+  text-transform: uppercase;
+  font-size: larger;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 7px;  
+}
+.p34{
+   font-size: 12px;
+   letter-spacing: 2px;
+
+}
+#button3{
+
+    background-color: transparent;
+    color:  #6c757d;
+    border-color:  #6c757d;
+    text-transform: uppercase; 
+   margin-top: 30px; 
+    padding-inline: 20px;  
+    border-radius: 0px;
+    border-width: 1px;
+}
+#d{
+    background-image: url(../images/bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    text-align: center;
+     
+}
+.images_h{
+    width: 250px;
+    height: 200px; 
+}
+#images{
+    margin-top: 0px;
+    padding: 50px;
+    width: 100%;
+    
+    }
+    #p44 {
+        text-transform: uppercase;
+         margin-top: 100px;
+        color: white;
+        text-align: center;
+        
+    }
 #f{
     background-image: url(../images/bg4.jpg);
     background-size: cover;
-    width: 100vw;
+  
     height: 100vh;
 }
