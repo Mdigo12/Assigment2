@@ -11,6 +11,12 @@ height: 100vh;
     display: inline-block;
     text-transform: uppercase;
 }
+nav ul li a{
+    color: black;
+}
+nav ul li a:hover{
+color: rgb(54, 42, 42);
+}
 #p1{
     letter-spacing: 10px;
 }
