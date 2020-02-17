@@ -3,19 +3,26 @@ background-image: url(../images/bg1.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 height: 100vh;
+
 }
-.sec1{
+#sec1{
     align-items: center;
     text-align: center;
-    margin: 0 auto;
+   
     display: inline-block;
+    
     text-transform: uppercase;
+}
+nav{
+    float: right;
+    
+    
 }
 nav ul li a{
     color: black;
 }
 nav ul li a:hover{
-color: rgb(54, 42, 42);
+color: rgba(175, 17, 17, 0.808);
 }
 #p1{
     letter-spacing: 10px;
@@ -117,7 +124,7 @@ color: rgb(54, 42, 42);
     }
     #p44 {
         text-transform: uppercase;
-        margin: 0 auto;
+        
         text-align: center;
         
        }
@@ -126,8 +133,7 @@ color: rgb(54, 42, 42);
         color: white;
         letter-spacing: 10px;
         display: inline-block;
-        margin-top: 100px;
-        padding-inline: 40px;
+        
        
         
         
